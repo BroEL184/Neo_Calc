@@ -5,7 +5,7 @@ import streamlit as st
 # =========================================
 
 st.set_page_config(
-    page_title="NICU Neonatal Calculator",
+    page_title="NICU Neo Calc",
     page_icon="🩺",
     layout="wide"
 )
@@ -16,10 +16,12 @@ st.set_page_config(
 
 st.title("NICU Neo Calc")
 
-st.markdown(
-    "<a id='dr-EL-Okta184'></a>",
-    unsafe_allow_html=True
-)
+st.markdown("""
+<head>
+<title>NICU Neo Calc</title>
+<meta name="application-name" content="NICU Neo Calc">
+</head>
+""", unsafe_allow_html=True)
 
 st.markdown("---")
 
